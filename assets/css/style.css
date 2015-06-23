@@ -30,11 +30,38 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     right: 0;
     bottom: 0;
     overflow: hidden;
+    opacity: 0;
 }
 .page{
     position: absolute;
     top: 50%;
-    margin-top: -588px;
+    margin-top: -568px;
+}
+.nav{
+    width: 640px;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    display: none;
+}
+.next{
+    position: absolute;
+    width: 60px;
+    height: 130px;
+    /*background: red;*/
+    top: -65px;
+    right: 0;
+    background: url("../images/next.png") no-repeat;
+    background-size: 100% 100%;
+}
+.prve{
+    position: absolute;
+    width: 60px;
+    height: 130px;
+    top: -65px;
+    left: 0;
+    background: url("../images/prve.png") no-repeat;
+    background-size: 100% 100%;
 }
 
 /* Media queries

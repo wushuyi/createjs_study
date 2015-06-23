@@ -9,6 +9,8 @@ lib.properties = {
 	fps: 25,
 	color: "#FFFFFF",
 	manifest: [
+		{src:"img_p1/bonjour.mp3", id:"bonjour"},
+		{src:"img_p1/nonghao.mp3", id:"nonghao"},
 		{src:"img_p1/bg.jpg", id:"bg"},
 		{src:"img_p1/bonjour.png", id:"bonjour"},
 		{src:"img_p1/cloud12.png", id:"cloud12"},
@@ -1292,8 +1294,9 @@ var AnimationP1 = (function (wsy, img, ctj) {
 		function (exportRoot) {
 			if (exportRoot.currentFrame === 27) {
 				exportRoot.stop();
+				createjs.Sound.play("bonjour");
 				if (this.onSwipe && typeof this.onSwipe === 'function') {
-					this.onSwipe();
+					this.onSwipe(exportRoot.currentFrame);
 				}
 				this.nextStatus();
 			}
@@ -1306,8 +1309,9 @@ var AnimationP1 = (function (wsy, img, ctj) {
 		function (exportRoot) {
 			if (exportRoot.currentFrame === 71) {
 				exportRoot.stop();
+				createjs.Sound.play("nonghao");
 				if (this.onSwipe && typeof this.onSwipe === 'function') {
-					this.onSwipe();
+					this.onSwipe(exportRoot.currentFrame);
 				}
 				this.nextStatus();
 			}
@@ -1337,6 +1341,8 @@ var AnimationP1 = (function (wsy, img, ctj) {
 	p.preload = function () {
 		var self = this;
 		self.loader = new ctj.LoadQueue(false);
+		ctj.Sound.alternateExtensions = ["mp3"];
+		self.loader.installPlugin(ctj.Sound);
 		self.loader.addEventListener("fileload", ctj.proxy(self.prohandleFileLoad, self));
 		self.loader.addEventListener("progress", function (evt) {
 			if (self.onProgress && typeof self.onProgress === 'function') {
