@@ -13,6 +13,9 @@ $el.navPrve = $('.prve', $el.nav);
 
 cache.url = $.url();
 cache.page = cache.url.param('page');
+if(!cache.page){
+    cache.page = '1';
+}
 
 if (cache.page === '1') {
     $el.navPrve.hide();

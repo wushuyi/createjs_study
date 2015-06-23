@@ -35,7 +35,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 .page{
     position: absolute;
     top: 50%;
-    margin-top: -568px;
+    margin-top: -600px;
 }
 .nav{
     width: 640px;
