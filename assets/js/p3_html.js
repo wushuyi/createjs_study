@@ -516,11 +516,15 @@ var AnimationP3 = (function (wsy, img, ctj) {
 	p.nextStatus = function () {
 		if (this.status < this.callbackQueue.length - 1) {
 			this.status += 1;
+		}else{
+			this.status = 0;
 		}
 	};
 	p.prevStatus = function () {
 		if (this.status > 0) {
 			this.status -= 1;
+		}else{
+			this.status = this.callbackQueue.length - 1;
 		}
 	};
 

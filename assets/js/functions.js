@@ -6,7 +6,7 @@ $el.doc.on('touchstart touchmove touchend touchcancel', function (evt) {
 });
 
 //(function(){
-var anima_p1 = new AnimationP4($('#canvas1').get(0));
+var anima_p1 = new AnimationP1($('#canvas1').get(0));
 anima_p1.onSwipe = function () {
     $('#canvas1').one('swipeRight mouseup', function () {
         anima_p1.nextStatus();
