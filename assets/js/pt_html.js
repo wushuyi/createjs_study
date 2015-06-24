@@ -135,7 +135,7 @@ var AnimationT = (function (wsy, img, ctj) {
 	p.handleComplete = function handleComplete(evt) {
 		var self = this;
 
-		self.exportRoot = new wsy.main("independent", 0, true);
+		self.exportRoot = new wsy.main("independent", 0, false);
 		self.stage = new ctj.Stage(self.canvas);
 		self.stage.addChild(this.exportRoot);
 

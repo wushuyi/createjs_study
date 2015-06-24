@@ -171,6 +171,23 @@ switch (cache.page) {
             $el.nav.show();
         };
         break;
+    case '8':
+        anima = new AnimationP0($el.canvas.get(0));
+        anima.onProgress = function (number) {
+            console.log(number);
+        };
+        anima.onComplete = function () {
+            $el.wrapper.animate({
+                opacity: 1
+            }, 1000, function () {
+                anima.play();
+            });
+        };
+        anima.onEnd = function () {
+            console.log('end!');
+            $el.nav.show();
+        };
+        break;
 }
 
 
