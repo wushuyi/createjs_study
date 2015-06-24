@@ -119,6 +119,22 @@ switch (cache.page) {
         };
         break;
     case '5':
+        //anima = new AnimationP5($el.canvas.get(0));
+        //anima.onProgress = function (number) {
+        //    console.log(number);
+        //};
+        //anima.onComplete = function () {
+        //    $el.wrapper.animate({
+        //        opacity: 1
+        //    }, 1000, function () {
+        //        anima.play();
+        //    });
+        //};
+        //anima.onEnd = function () {
+        //    $el.nav.show();
+        //};
+        break;
+    case '6':
         anima = new AnimationP6($el.canvas.get(0));
         anima.onProgress = function (number) {
             console.log(number);
