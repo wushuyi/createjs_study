@@ -337,3 +337,125 @@ p.nominalBounds = new cjs.Rectangle(320,568,640,1136);
 
 })(wsy_p5 = wsy_p5||{}, img_p5 = img_p5||{}, ctj = ctj||{}, ss = ss||{});
 var wsy_p5, img_p5, ctj, ss;
+
+
+var AnimationP5 = (function (wsy, img, ctj) {
+	var noop = function () {
+	};
+
+	var Animation = function (canvas) {
+		p.initialize.apply(this, arguments);
+	};
+
+	var p = Animation.prototype;
+	var s = Animation;
+
+	p.initialize = function (canvas) {
+		var self = this;
+
+		self.canvas = canvas;
+		self.exportRoot = null;
+		self.stage = null;
+		self.status = 0;
+		self.onSwipe = null;
+
+		ctj.Ticker.useRAF = true;
+		ctj.Ticker.setFPS(wsy.properties.fps);
+		self._tickListen = ctj.proxy(self._tickFunc, this);
+	};
+
+	p.prohandleFileLoad = function (evt) {
+		if (evt.item.type == "image") {
+			img[evt.item.id] = evt.result;
+		}
+	};
+
+	p.handleComplete = function handleComplete(evt) {
+		var self = this;
+
+		self.exportRoot = new wsy.p5_html("independent", 0, false);
+		self.stage = new ctj.Stage(self.canvas);
+		self.stage.addChild(this.exportRoot);
+
+		self.stage.update();
+		if (self.onComplete && typeof self.onComplete === 'function') {
+			self.onComplete();
+		}
+	};
+
+	p._tickFunc = function (evt) {
+		var self = this;
+		self.callbackQueue[self.status].call(self, self.exportRoot);
+		if (self._onceEnd &&
+			self.onEnd &&
+			self.exportRoot.currentFrame === self.exportRoot.totalFrames &&
+			typeof self.onEnd === 'function') {
+			self.onEnd();
+			self._onceEnd = false;
+		}
+		self.stage.update(evt);
+	};
+
+	p.play = function (position) {
+		var self = this;
+		self._onceEnd = true;
+		ctj.Ticker.addEventListener("tick", self._tickListen);
+		self.exportRoot.gotoAndPlay(position);
+	};
+
+	p.stop = function (position) {
+		var self = this;
+		self.exportRoot.gotoAndStop(position);
+		ctj.Ticker.removeEventListener("tick", self._tickListen);
+	};
+
+	p.callbackQueue = [
+		function (exportRoot) {
+			if (exportRoot.currentFrame === 19) {
+				exportRoot.stop();
+				createjs.Sound.play("bonjour");
+				if (this.onSwipe && typeof this.onSwipe === 'function') {
+					this.onSwipe(exportRoot.currentFrame);
+				}
+				this.nextStatus();
+			}
+		},
+		noop,
+		function (exportRoot) {
+			exportRoot.play();
+			this.nextStatus();
+		},
+		noop
+	];
+
+	p.nextStatus = function () {
+		if (this.status < this.callbackQueue.length - 1) {
+			this.status += 1;
+		}else{
+			this.status = 0;
+		}
+	};
+	p.prevStatus = function () {
+		if (this.status > 0) {
+			this.status -= 1;
+		}else{
+			this.status = this.callbackQueue.length - 1;
+		}
+	};
+
+	p.preload = function () {
+		var self = this;
+		self.loader = new ctj.LoadQueue(false);
+		ctj.Sound.alternateExtensions = ["mp3"];
+		self.loader.installPlugin(ctj.Sound);
+		self.loader.addEventListener("fileload", ctj.proxy(self.prohandleFileLoad, self));
+		self.loader.addEventListener("progress", function (evt) {
+			if (self.onProgress && typeof self.onProgress === 'function') {
+				self.onProgress(evt.progress);
+			}
+		});
+		self.loader.addEventListener("complete", ctj.proxy(self.handleComplete, self));
+		self.loader.loadManifest(wsy.properties.manifest, true, "./assets/images/");
+	};
+	return Animation;
+})(wsy_p5 = wsy_p5 || {}, img_p5 = img_p5 || {}, ctj = ctj || {});
