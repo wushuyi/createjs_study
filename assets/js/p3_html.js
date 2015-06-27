@@ -53,7 +53,7 @@
 	(lib.copy1 = function() {
 		this.initialize(img.copy1);
 	}).prototype = p = new cjs.Bitmap();
-	p.nominalBounds = new cjs.Rectangle(0,0,341,68);
+	p.nominalBounds = new cjs.Rectangle(0,0,293,82);
 
 
 	(lib.copy2 = function() {
@@ -65,13 +65,13 @@
 	(lib.copy3 = function() {
 		this.initialize(img.copy3);
 	}).prototype = p = new cjs.Bitmap();
-	p.nominalBounds = new cjs.Rectangle(0,0,101,28);
+	p.nominalBounds = new cjs.Rectangle(0,0,276,40);
 
 
 	(lib.copy4 = function() {
 		this.initialize(img.copy4);
 	}).prototype = p = new cjs.Bitmap();
-	p.nominalBounds = new cjs.Rectangle(0,0,234,29);
+	p.nominalBounds = new cjs.Rectangle(0,0,281,35);
 
 
 	(lib.gaizi = function() {
