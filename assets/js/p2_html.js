@@ -879,7 +879,7 @@ p.nominalBounds = null;
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(32).to({_off:false},0).to({scaleX:1.7,scaleY:1.7,x:472.4,y:950.6,alpha:1},17).to({scaleX:1.55,scaleY:1.55,x:458,y:955.9},7).to({regX:0.1,regY:-0.1,scaleX:1.17,scaleY:1.17,x:367.7,y:975.7},9).to({regX:0,regY:0,scaleX:0.96,scaleY:0.96,x:310,y:985},32).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(40).to({_off:false},0).to({scaleX:1.7,scaleY:1.7,x:472.4,y:950.6,alpha:1},17).to({scaleX:1.55,scaleY:1.55,x:458,y:955.9},7).to({regX:0.1,regY:-0.1,scaleX:1.17,scaleY:1.17,x:367.7,y:975.7},9).to({regX:0,regY:0,scaleX:0.96,scaleY:0.96,x:310,y:985},32).wait(44));
 
 	// Layer 4
 	this.instance_9 = new lib.Tween2("synched",0);

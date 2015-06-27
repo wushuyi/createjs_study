@@ -101,7 +101,10 @@ switch (cache.page) {
                 opacity: 1
             }, 1000, function () {
                 anima.play();
+                //anima.exportRoot.gotoAndStop(35);
             });
+            //anima.play();
+            //
         };
         anima.onEnd = function () {
             $el.nav.show();
