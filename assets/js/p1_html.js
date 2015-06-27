@@ -1282,7 +1282,9 @@ var AnimationP1 = (function (wsy, img, ctj) {
 		self._onceEnd = true;
 		ctj.Ticker.addEventListener("tick", self._tickListen);
 		self.exportRoot.gotoAndPlay(position);
-		console.log(self.status)
+		if(position === 0){
+			self.status = 0;
+		}
 	};
 
 	p.stop = function (position) {

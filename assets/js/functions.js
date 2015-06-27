@@ -84,7 +84,12 @@ switch (cache.page) {
     case '3':
         anima = new AnimationP3($el.canvas.get(0));
         anima.onShake = function () {
-            $el.canvas.one('swipeRight mouseup tap', function () {
+            $el.canvas.off('swipeLeft').one('swipeLeft', function(evt){
+                anima.nextStatus();
+            });
+        };
+        anima.onSwipe = function () {
+            $el.canvas.off('swipeLeft').one('swipeLeft', function(evt){
                 anima.nextStatus();
             });
         };
@@ -121,7 +126,7 @@ switch (cache.page) {
     case '5':
         anima = new AnimationP5($el.canvas.get(0));
         anima.onSwipe = function(){
-          $el.canvas.on('swipeLeft mouseup', function(evt){
+          $el.canvas.off('swipeLeft').one('swipeLeft', function(evt){
               anima.nextStatus();
           });
         };
