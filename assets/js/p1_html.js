@@ -89,19 +89,19 @@ p.nominalBounds = new cjs.Rectangle(0,0,259,44);
 (lib.copy2 = function() {
 	this.initialize(img.copy2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,256,40);
+p.nominalBounds = new cjs.Rectangle(0,0,261,40);
 
 
 (lib.copy3 = function() {
 	this.initialize(img.copy3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,376,45);
+p.nominalBounds = new cjs.Rectangle(0,0,344,49);
 
 
 (lib.copy4 = function() {
 	this.initialize(img.copy4);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,375,42);
+p.nominalBounds = new cjs.Rectangle(0,0,342,39);
 
 
 (lib.earth1pngcopy = function() {
@@ -239,7 +239,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,378,598);
 (lib.tishi1 = function() {
 	this.initialize(img.tishi1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,207,25);
+p.nominalBounds = new cjs.Rectangle(0,0,359,105);
 
 
 (lib.tishi2 = function() {
@@ -305,7 +305,7 @@ p.nominalBounds = new cjs.Rectangle(-24,-31,48,62);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-187.5,-21,375,42);
+p.nominalBounds = new cjs.Rectangle(-187.5,-21,342,39);
 
 
 (lib.Tween5 = function() {
@@ -317,7 +317,7 @@ p.nominalBounds = new cjs.Rectangle(-187.5,-21,375,42);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-188,-22.5,376,45);
+p.nominalBounds = new cjs.Rectangle(-188,-22.5,344,49);
 
 
 (lib.Tween4 = function() {
@@ -325,11 +325,11 @@ p.nominalBounds = new cjs.Rectangle(-188,-22.5,376,45);
 
 	// Layer 1
 	this.instance = new lib.copy1();
-	this.instance.setTransform(-129.5,-22);
+	this.instance.setTransform(-129.5,-17);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-129.5,-22,259,44);
+p.nominalBounds = new cjs.Rectangle(-129.5,-17,259,44);
 
 
 (lib.Tween3 = function() {
@@ -337,11 +337,11 @@ p.nominalBounds = new cjs.Rectangle(-129.5,-22,259,44);
 
 	// Layer 1
 	this.instance = new lib.copy2();
-	this.instance.setTransform(-128,-20);
+	this.instance.setTransform(-128,-26);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-128,-20,256,40);
+p.nominalBounds = new cjs.Rectangle(-128,-26,261,40);
 
 
 (lib.Tween2copy4 = function() {
@@ -689,11 +689,11 @@ p.nominalBounds = new cjs.Rectangle(-753.5,-102.7,1507.2,210.3);
 	mask._off = true;
 	var mask_graphics_7 = new cjs.Graphics().p("AqEE9IAAp5IUJAAIAAJ5g");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(7).to({graphics:mask_graphics_7,x:104,y:16.3}).wait(11).to({graphics:null,x:0,y:0}).wait(17));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(7).to({graphics:mask_graphics_7,x:19,y:24.3}).wait(11).to({graphics:null,x:0,y:0}).wait(17));
 
 	// tishi3.png
 	this.instance = new lib.Tween8("synched",0);
-	this.instance.setTransform(103.5,47,1,1,-165.3,0,0,-3,22.5);
+	this.instance.setTransform(18.5,55,1,1,-165.3,0,0,-3,22.5);
 	this.instance._off = true;
 
 	this.instance.mask = mask;
@@ -702,18 +702,18 @@ p.nominalBounds = new cjs.Rectangle(-753.5,-102.7,1507.2,210.3);
 
 	// tishi2.png
 	this.instance_1 = new lib.Tween7("synched",0);
-	this.instance_1.setTransform(93,55.1,1,1,-23.4);
+	this.instance_1.setTransform(8,63.1,1,1,-23.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({rotation:-23.3,y:55},0).wait(1).to({rotation:-23,x:93.2},0).wait(1).to({rotation:-22.3,x:93.5},0).wait(1).to({rotation:-21.4,x:93.9},0).wait(1).to({rotation:-20,x:94.4,y:54.9},0).wait(1).to({rotation:-18.3,x:95.2},0).wait(1).to({rotation:-15.9,x:96.1,y:54.8},0).wait(1).to({rotation:-13,x:97.3,y:54.7},0).wait(1).to({rotation:-9.4,x:98.8,y:54.6},0).wait(1).to({rotation:-5.2,x:100.6,y:54.4},0).wait(1).to({rotation:-0.5,x:102.5,y:54.3},0).wait(1).to({rotation:4.3,x:104.5,y:54.1},0).wait(1).to({rotation:8.7,x:106.4,y:54},0).wait(1).to({rotation:12.5,x:108,y:53.8},0).wait(1).to({rotation:15.4,x:109.2,y:53.7},0).wait(1).to({rotation:17.7,x:110.1},0).wait(1).to({rotation:19.2,x:110.8,y:53.6},0).wait(1).to({rotation:20.3,x:111.2},0).wait(1).to({rotation:20.8,x:111.4},0).wait(1).to({rotation:21,x:111.5},0).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({rotation:-23.3,y:63},0).wait(1).to({rotation:-23,x:8.2},0).wait(1).to({rotation:-22.3,x:8.5},0).wait(1).to({rotation:-21.4,x:8.9},0).wait(1).to({rotation:-20,x:9.4,y:62.9},0).wait(1).to({rotation:-18.3,x:10.2},0).wait(1).to({rotation:-15.9,x:11.1,y:62.8},0).wait(1).to({rotation:-13,x:12.3,y:62.7},0).wait(1).to({rotation:-9.4,x:13.8,y:62.6},0).wait(1).to({rotation:-5.2,x:15.6,y:62.4},0).wait(1).to({rotation:-0.5,x:17.5,y:62.3},0).wait(1).to({rotation:4.3,x:19.5,y:62.1},0).wait(1).to({rotation:8.7,x:21.4,y:62},0).wait(1).to({rotation:12.5,x:23,y:61.8},0).wait(1).to({rotation:15.4,x:24.2,y:61.7},0).wait(1).to({rotation:17.7,x:25.1},0).wait(1).to({rotation:19.2,x:25.8,y:61.6},0).wait(1).to({rotation:20.3,x:26.2},0).wait(1).to({rotation:20.8,x:26.4},0).wait(1).to({rotation:21,x:26.5},0).wait(15));
 
 	// tishi1.png
 	this.instance_2 = new lib.tishi1();
-	this.instance_2.setTransform(0,95.1);
+	this.instance_2.setTransform(-62,8);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(35));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,17.1,207,103);
+p.nominalBounds = new cjs.Rectangle(-62,8,359,105);
 
 
 (lib.Symbol4copy4 = function(mode,startPosition,loop) {

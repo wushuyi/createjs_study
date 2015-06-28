@@ -47,7 +47,7 @@ switch (cache.page) {
             if (currentFrame === 71) {
                 $el.nav.show();
             }
-            $el.canvas .one('swipeRight mouseup', function () {
+            $el.canvas.off('swipeRight').one('swipeRight', function () {
                 anima.nextStatus();
             });
         };
