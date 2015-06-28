@@ -35,7 +35,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,444,55);
 (lib.copy2 = function() {
 	this.initialize(img.copy2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,430,41);
+p.nominalBounds = new cjs.Rectangle(0,0,430,36);
 
 
 (lib.suannai12 = function() {
@@ -179,11 +179,11 @@ p.nominalBounds = new cjs.Rectangle(-222,-27.5,444,55);
 
 	// Layer 1
 	this.instance = new lib.copy2();
-	this.instance.setTransform(-215,-20);
+	this.instance.setTransform(-215,-18);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-215,-18,430,40);
+p.nominalBounds = new cjs.Rectangle(-215,-18,430,36);
 
 
 (lib.Tween4copy = function(mode,startPosition,loop) {
@@ -388,6 +388,7 @@ p.nominalBounds = new cjs.Rectangle(320,568,640,1136);
 
 })(wsy_p5 = wsy_p5||{}, img_p5 = img_p5||{}, ctj = ctj||{}, ss = ss||{});
 var wsy_p5, img_p5, ctj, ss;
+
 
 var AnimationP5 = (function (wsy, img, ctj) {
 	var noop = function () {

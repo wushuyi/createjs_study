@@ -90,7 +90,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,568,223);
 (lib.copy1 = function() {
 	this.initialize(img.copy1);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,282,43);
+p.nominalBounds = new cjs.Rectangle(0,0,354,56);
 
 
 (lib.copy2 = function() {
@@ -260,11 +260,11 @@ p.nominalBounds = new cjs.Rectangle(-111.5,-135,223,270);
 
 	// Layer 1
 	this.instance = new lib.copy1();
-	this.instance.setTransform(-141,-21.5);
+	this.instance.setTransform(-173.2,-21.5);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-141,-21.5,282,43);
+p.nominalBounds = new cjs.Rectangle(-173.2,-21.5,354,56);
 
 
 (lib.Tween2 = function() {
@@ -272,11 +272,11 @@ p.nominalBounds = new cjs.Rectangle(-141,-21.5,282,43);
 
 	// Layer 1
 	this.instance = new lib.copy2();
-	this.instance.setTransform(-178.5,-22);
+	this.instance.setTransform(-173,-22);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-178.5,-22,357,44);
+p.nominalBounds = new cjs.Rectangle(-173,-22,357,44);
 
 
 (lib.ppp = function() {
@@ -337,7 +337,7 @@ p.nominalBounds = new cjs.Rectangle(-216.8,-95.7,131,131);
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(31).to({_off:false},0).to({alpha:1},26).wait(14));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(12.1,-8.4,275,41.9);
+p.nominalBounds = new cjs.Rectangle(-19.4,-8.4,345.2,54.6);
 
 
 (lib.Symbol2 = function(mode,startPosition,loop) {
@@ -481,10 +481,10 @@ p.nominalBounds = new cjs.Rectangle(-59.6,0,749.7,1152.9);
 
 
 (lib.p6_html = function(mode,startPosition,loop) {
-if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
+	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib.Symbol1("synched",0);
+	this.instance = new lib.Symbol1("synched",0,false);
 	this.instance.setTransform(990.6,597,1,1,0,0,0,990.6,597);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(120));
@@ -494,6 +494,7 @@ p.nominalBounds = new cjs.Rectangle(260.4,840.6,749.7,880.4);
 
 })(wsy_p6 = wsy_p6||{}, img_p6 = img_p6||{}, ctj = ctj||{}, ss = ss||{});
 var wsy_p6, img_p6, ctj, ss;
+
 
 var AnimationP6 = (function (wsy, img, ctj) {
 	var noop = function () {
