@@ -6,7 +6,7 @@ var p; // shortcut to reference prototypes
 lib.properties = {
 	width: 640,
 	height: 1136,
-	fps: 30,
+	fps: 25,
 	color: "#FFFFFF",
 	manifest: [
 		{src:"img_p0/bg1.jpg", id:"bg1"},
@@ -57,7 +57,6 @@ lib.properties = {
 		{src:"img_p0/san_41.png", id:"san_41"},
 		{src:"img_p0/san_42.png", id:"san_42"},
 		{src:"img_p0/san_43.png", id:"san_43"},
-		{src:"img_p0/zhu00.png", id:"zhu00"},
 		{src:"img_p0/zhu01.png", id:"zhu01"},
 		{src:"img_p0/zhu02.png", id:"zhu02"},
 		{src:"img_p0/zhu03.png", id:"zhu03"},
@@ -79,29 +78,7 @@ lib.properties = {
 		{src:"img_p0/zhu19.png", id:"zhu19"},
 		{src:"img_p0/zhu20.png", id:"zhu20"},
 		{src:"img_p0/zhu21.png", id:"zhu21"},
-		{src:"img_p0/zhu22.png", id:"zhu22"},
-		{src:"img_p0/zhu23.png", id:"zhu23"},
-		{src:"img_p0/zhu24.png", id:"zhu24"},
-		{src:"img_p0/zhu25.png", id:"zhu25"},
-		{src:"img_p0/zhu26.png", id:"zhu26"},
-		{src:"img_p0/zhu27.png", id:"zhu27"},
-		{src:"img_p0/zhu28.png", id:"zhu28"},
-		{src:"img_p0/zhu29.png", id:"zhu29"},
-		{src:"img_p0/zhu30.png", id:"zhu30"},
-		{src:"img_p0/zhu31.png", id:"zhu31"},
-		{src:"img_p0/zhu32.png", id:"zhu32"},
-		{src:"img_p0/zhu33.png", id:"zhu33"},
-		{src:"img_p0/zhu34.png", id:"zhu34"},
-		{src:"img_p0/zhu35.png", id:"zhu35"},
-		{src:"img_p0/zhu36.png", id:"zhu36"},
-		{src:"img_p0/zhu37.png", id:"zhu37"},
-		{src:"img_p0/zhu38.png", id:"zhu38"},
-		{src:"img_p0/zhu39.png", id:"zhu39"},
-		{src:"img_p0/zhu40.png", id:"zhu40"},
-		{src:"img_p0/zhu41.png", id:"zhu41"},
-		{src:"img_p0/zhu42.png", id:"zhu42"},
-		{src:"img_p0/zhu43.png", id:"zhu43"},
-		{src:"img_p0/zhu44.png", id:"zhu44"}
+		{src:"img_p0/zhu22.png", id:"zhu22"}
 	]
 };
 
@@ -399,12 +376,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,480,852);
 p.nominalBounds = new cjs.Rectangle(0,0,480,852);
 
 
-(lib.zhu00 = function() {
-	this.initialize(img.zhu00);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
 (lib.zhu01 = function() {
 	this.initialize(img.zhu01);
 }).prototype = p = new cjs.Bitmap();
@@ -537,138 +508,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,405,413);
 p.nominalBounds = new cjs.Rectangle(0,0,405,413);
 
 
-(lib.zhu23 = function() {
-	this.initialize(img.zhu23);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu24 = function() {
-	this.initialize(img.zhu24);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu25 = function() {
-	this.initialize(img.zhu25);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu26 = function() {
-	this.initialize(img.zhu26);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu27 = function() {
-	this.initialize(img.zhu27);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu28 = function() {
-	this.initialize(img.zhu28);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu29 = function() {
-	this.initialize(img.zhu29);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu30 = function() {
-	this.initialize(img.zhu30);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu31 = function() {
-	this.initialize(img.zhu31);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu32 = function() {
-	this.initialize(img.zhu32);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu33 = function() {
-	this.initialize(img.zhu33);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu34 = function() {
-	this.initialize(img.zhu34);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu35 = function() {
-	this.initialize(img.zhu35);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu36 = function() {
-	this.initialize(img.zhu36);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu37 = function() {
-	this.initialize(img.zhu37);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu38 = function() {
-	this.initialize(img.zhu38);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu39 = function() {
-	this.initialize(img.zhu39);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu40 = function() {
-	this.initialize(img.zhu40);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu41 = function() {
-	this.initialize(img.zhu41);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu42 = function() {
-	this.initialize(img.zhu42);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu43 = function() {
-	this.initialize(img.zhu43);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
-(lib.zhu44 = function() {
-	this.initialize(img.zhu44);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,405,413);
-
-
 (lib.Tween5 = function() {
 	this.initialize();
 
@@ -709,142 +548,73 @@ p.nominalBounds = new cjs.Rectangle(-27,-32.5,54,65);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 2
-	this.instance = new lib.zhu00();
+	this.instance = new lib.zhu01();
 	this.instance.setTransform(617.1,183);
 
-	this.instance_1 = new lib.zhu01();
+	this.instance_1 = new lib.zhu02();
 	this.instance_1.setTransform(617.1,183);
 
-	this.instance_2 = new lib.zhu02();
+	this.instance_2 = new lib.zhu03();
 	this.instance_2.setTransform(617.1,183);
 
-	this.instance_3 = new lib.zhu03();
+	this.instance_3 = new lib.zhu04();
 	this.instance_3.setTransform(617.1,183);
 
-	this.instance_4 = new lib.zhu04();
+	this.instance_4 = new lib.zhu05();
 	this.instance_4.setTransform(617.1,183);
 
-	this.instance_5 = new lib.zhu05();
+	this.instance_5 = new lib.zhu06();
 	this.instance_5.setTransform(617.1,183);
 
-	this.instance_6 = new lib.zhu06();
+	this.instance_6 = new lib.zhu07();
 	this.instance_6.setTransform(617.1,183);
 
-	this.instance_7 = new lib.zhu07();
+	this.instance_7 = new lib.zhu08();
 	this.instance_7.setTransform(617.1,183);
 
-	this.instance_8 = new lib.zhu08();
+	this.instance_8 = new lib.zhu09();
 	this.instance_8.setTransform(617.1,183);
 
-	this.instance_9 = new lib.zhu09();
+	this.instance_9 = new lib.zhu10();
 	this.instance_9.setTransform(617.1,183);
 
-	this.instance_10 = new lib.zhu10();
+	this.instance_10 = new lib.zhu11();
 	this.instance_10.setTransform(617.1,183);
 
-	this.instance_11 = new lib.zhu11();
+	this.instance_11 = new lib.zhu12();
 	this.instance_11.setTransform(617.1,183);
 
-	this.instance_12 = new lib.zhu12();
+	this.instance_12 = new lib.zhu13();
 	this.instance_12.setTransform(617.1,183);
 
-	this.instance_13 = new lib.zhu13();
+	this.instance_13 = new lib.zhu14();
 	this.instance_13.setTransform(617.1,183);
 
-	this.instance_14 = new lib.zhu14();
+	this.instance_14 = new lib.zhu15();
 	this.instance_14.setTransform(617.1,183);
 
-	this.instance_15 = new lib.zhu15();
+	this.instance_15 = new lib.zhu16();
 	this.instance_15.setTransform(617.1,183);
 
-	this.instance_16 = new lib.zhu16();
+	this.instance_16 = new lib.zhu17();
 	this.instance_16.setTransform(617.1,183);
 
-	this.instance_17 = new lib.zhu17();
+	this.instance_17 = new lib.zhu18();
 	this.instance_17.setTransform(617.1,183);
 
-	this.instance_18 = new lib.zhu18();
+	this.instance_18 = new lib.zhu19();
 	this.instance_18.setTransform(617.1,183);
 
-	this.instance_19 = new lib.zhu19();
+	this.instance_19 = new lib.zhu20();
 	this.instance_19.setTransform(617.1,183);
 
-	this.instance_20 = new lib.zhu20();
+	this.instance_20 = new lib.zhu21();
 	this.instance_20.setTransform(617.1,183);
 
-	this.instance_21 = new lib.zhu21();
+	this.instance_21 = new lib.zhu22();
 	this.instance_21.setTransform(617.1,183);
 
-	this.instance_22 = new lib.zhu22();
-	this.instance_22.setTransform(617.1,183);
-
-	this.instance_23 = new lib.zhu23();
-	this.instance_23.setTransform(617.1,183);
-
-	this.instance_24 = new lib.zhu24();
-	this.instance_24.setTransform(617.1,183);
-
-	this.instance_25 = new lib.zhu25();
-	this.instance_25.setTransform(617.1,183);
-
-	this.instance_26 = new lib.zhu26();
-	this.instance_26.setTransform(617.1,183);
-
-	this.instance_27 = new lib.zhu27();
-	this.instance_27.setTransform(617.1,183);
-
-	this.instance_28 = new lib.zhu28();
-	this.instance_28.setTransform(617.1,183);
-
-	this.instance_29 = new lib.zhu29();
-	this.instance_29.setTransform(617.1,183);
-
-	this.instance_30 = new lib.zhu30();
-	this.instance_30.setTransform(617.1,183);
-
-	this.instance_31 = new lib.zhu31();
-	this.instance_31.setTransform(617.1,183);
-
-	this.instance_32 = new lib.zhu32();
-	this.instance_32.setTransform(617.1,183);
-
-	this.instance_33 = new lib.zhu33();
-	this.instance_33.setTransform(617.1,183);
-
-	this.instance_34 = new lib.zhu34();
-	this.instance_34.setTransform(617.1,183);
-
-	this.instance_35 = new lib.zhu35();
-	this.instance_35.setTransform(617.1,183);
-
-	this.instance_36 = new lib.zhu36();
-	this.instance_36.setTransform(617.1,183);
-
-	this.instance_37 = new lib.zhu37();
-	this.instance_37.setTransform(617.1,183);
-
-	this.instance_38 = new lib.zhu38();
-	this.instance_38.setTransform(617.1,183);
-
-	this.instance_39 = new lib.zhu39();
-	this.instance_39.setTransform(617.1,183);
-
-	this.instance_40 = new lib.zhu40();
-	this.instance_40.setTransform(617.1,183);
-
-	this.instance_41 = new lib.zhu41();
-	this.instance_41.setTransform(617.1,183);
-
-	this.instance_42 = new lib.zhu42();
-	this.instance_42.setTransform(617.1,183);
-
-	this.instance_43 = new lib.zhu43();
-	this.instance_43.setTransform(617.1,183);
-
-	this.instance_44 = new lib.zhu44();
-	this.instance_44.setTransform(617.1,183);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_8}]},1).to({state:[{t:this.instance_9}]},1).to({state:[{t:this.instance_10}]},1).to({state:[{t:this.instance_11}]},1).to({state:[{t:this.instance_12}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.instance_15}]},1).to({state:[{t:this.instance_16}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).to({state:[{t:this.instance_22}]},1).to({state:[{t:this.instance_23}]},1).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},1).to({state:[{t:this.instance_39}]},1).to({state:[{t:this.instance_40}]},1).to({state:[{t:this.instance_41}]},1).to({state:[{t:this.instance_42}]},1).to({state:[{t:this.instance_43}]},1).to({state:[{t:this.instance_44}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_8}]},1).to({state:[{t:this.instance_9}]},1).to({state:[{t:this.instance_10}]},1).to({state:[{t:this.instance_11}]},1).to({state:[{t:this.instance_12}]},1).to({state:[{t:this.instance_13}]},1).to({state:[{t:this.instance_14}]},1).to({state:[{t:this.instance_15}]},1).to({state:[{t:this.instance_16}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).wait(21));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(617.1,183,405,413);
@@ -1007,7 +777,7 @@ p.nominalBounds = new cjs.Rectangle(-714.1,0,468,227);
 	this.instance = new lib.Tween1("synched",0,false);
 	this.instance.setTransform(98,125.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:4.2,regY:-0.1,x:102.2,y:125.4,startPosition:1},0).wait(1).to({startPosition:2},0).wait(1).to({y:125.5,startPosition:3},0).wait(1).to({y:125.6,startPosition:4},0).wait(1).to({y:125.7,startPosition:5},0).wait(1).to({y:125.8,startPosition:6},0).wait(1).to({y:126,startPosition:7},0).wait(1).to({y:126.2,startPosition:8},0).wait(1).to({y:126.4,startPosition:9},0).wait(1).to({y:126.7,startPosition:10},0).wait(1).to({y:126.9,startPosition:11},0).wait(1).to({y:127.2,startPosition:12},0).wait(1).to({y:127.6,startPosition:13},0).wait(1).to({y:128,startPosition:14},0).wait(1).to({y:128.4,startPosition:15},0).wait(1).to({y:128.8,startPosition:16},0).wait(1).to({y:129.3,startPosition:17},0).wait(1).to({y:129.8,startPosition:18},0).wait(1).to({y:130.4,startPosition:19},0).wait(1).to({y:130.9,startPosition:20},0).wait(1).to({y:131.5,startPosition:21},0).wait(1).to({y:132.1,startPosition:22},0).wait(1).to({y:132.7,startPosition:23},0).wait(1).to({y:133.3,startPosition:24},0).wait(1).to({y:133.9,startPosition:25},0).wait(1).to({y:134.5,startPosition:26},0).wait(1).to({y:135,startPosition:27},0).wait(1).to({y:135.6,startPosition:28},0).wait(1).to({y:136.1,startPosition:29},0).wait(1).to({y:136.6,startPosition:30},0).wait(1).to({y:137.1,startPosition:31},0).wait(1).to({y:137.5,startPosition:32},0).wait(1).to({y:137.9,startPosition:33},0).wait(1).to({y:138.2,startPosition:34},0).wait(1).to({y:138.5,startPosition:35},0).wait(1).to({y:138.7,startPosition:36},0).wait(1).to({y:138.9,startPosition:37},0).wait(1).to({y:139.1,startPosition:38},0).wait(1).to({y:139.2,startPosition:39},0).wait(1).to({y:139.3,startPosition:40},0).wait(1).to({y:139.4,startPosition:41},0).wait(1).to({regX:0,regY:0,x:98,y:139.5,startPosition:42},0).wait(1).to({regX:4.2,regY:-0.1,x:102.2,y:139.4,startPosition:43},0).wait(1).to({startPosition:44},0).wait(1).to({y:139.3,startPosition:45},0).wait(1).to({y:139.2,startPosition:46},0).wait(1).to({y:139.1,startPosition:47},0).wait(1).to({y:139,startPosition:48},0).wait(1).to({y:138.9,startPosition:49},0).wait(1).to({y:138.7,startPosition:50},0).wait(1).to({y:138.5,startPosition:51},0).wait(1).to({y:138.3,startPosition:52},0).wait(1).to({y:138,startPosition:53},0).wait(1).to({y:137.7,startPosition:54},0).wait(1).to({y:137.4,startPosition:55},0).wait(1).to({y:137,startPosition:56},0).wait(1).to({y:136.7,startPosition:57},0).wait(1).to({y:136.2,startPosition:58},0).wait(1).to({y:135.8,startPosition:59},0).wait(1).to({y:135.3,startPosition:60},0).wait(1).to({y:134.8,startPosition:61},0).wait(1).to({y:134.2,startPosition:62},0).wait(1).to({y:133.7,startPosition:63},0).wait(1).to({y:133.1,startPosition:64},0).wait(1).to({y:132.5,startPosition:65},0).wait(1).to({y:131.9,startPosition:66},0).wait(1).to({y:131.3,startPosition:67},0).wait(1).to({y:130.6,startPosition:68},0).wait(1).to({y:130,startPosition:69},0).wait(1).to({y:129.5,startPosition:70},0).wait(1).to({y:128.9,startPosition:71},0).wait(1).to({y:128.4,startPosition:72},0).wait(1).to({y:127.9,startPosition:73},0).wait(1).to({y:127.4,startPosition:74},0).wait(1).to({y:127,startPosition:75},0).wait(1).to({y:126.7,startPosition:76},0).wait(1).to({y:126.4,startPosition:77},0).wait(1).to({y:126.1,startPosition:78},0).wait(1).to({y:125.9,startPosition:79},0).wait(1).to({y:125.7,startPosition:80},0).wait(1).to({y:125.6,startPosition:81},0).wait(1).to({y:125.5,startPosition:82},0).wait(1).to({y:125.4,startPosition:83},0).wait(1).to({regX:0,regY:0,x:98,y:125.5,startPosition:84,loop:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:4.3,regY:-0.1,x:102.3,y:125.4,startPosition:1},0).wait(1).to({startPosition:2},0).wait(1).to({y:125.5,startPosition:3},0).wait(1).to({y:125.6,startPosition:4},0).wait(1).to({y:125.7,startPosition:5},0).wait(1).to({y:125.8,startPosition:6},0).wait(1).to({y:126,startPosition:7},0).wait(1).to({y:126.2,startPosition:8},0).wait(1).to({y:126.4,startPosition:9},0).wait(1).to({y:126.7,startPosition:10},0).wait(1).to({y:126.9,startPosition:11},0).wait(1).to({y:127.2,startPosition:12},0).wait(1).to({y:127.6,startPosition:13},0).wait(1).to({y:128,startPosition:14},0).wait(1).to({y:128.4,startPosition:15},0).wait(1).to({y:128.8,startPosition:16},0).wait(1).to({y:129.3,startPosition:17},0).wait(1).to({y:129.8,startPosition:18},0).wait(1).to({y:130.4,startPosition:19},0).wait(1).to({y:130.9,startPosition:20},0).wait(1).to({y:131.5,startPosition:21},0).wait(1).to({y:132.1,startPosition:22},0).wait(1).to({y:132.7,startPosition:23},0).wait(1).to({y:133.3,startPosition:24},0).wait(1).to({y:133.9,startPosition:25},0).wait(1).to({y:134.5,startPosition:26},0).wait(1).to({y:135,startPosition:27},0).wait(1).to({y:135.6,startPosition:28},0).wait(1).to({y:136.1,startPosition:29},0).wait(1).to({y:136.6,startPosition:30},0).wait(1).to({y:137.1,startPosition:31},0).wait(1).to({y:137.5,startPosition:32},0).wait(1).to({y:137.9,startPosition:33},0).wait(1).to({y:138.2,startPosition:34},0).wait(1).to({y:138.5,startPosition:35},0).wait(1).to({y:138.7,startPosition:36},0).wait(1).to({y:138.9,startPosition:37},0).wait(1).to({y:139.1,startPosition:38},0).wait(1).to({y:139.2,startPosition:39},0).wait(1).to({y:139.3,startPosition:40},0).wait(1).to({y:139.4,startPosition:41},0).wait(1).to({regX:0,regY:0,x:98,y:139.5,startPosition:42},0).wait(1).to({regX:4.3,regY:-0.1,x:102.3,y:139.4,startPosition:43},0).wait(1).to({startPosition:44},0).wait(1).to({y:139.3,startPosition:45},0).wait(1).to({y:139.2,startPosition:46},0).wait(1).to({y:139.1,startPosition:47},0).wait(1).to({y:139,startPosition:48},0).wait(1).to({y:138.9,startPosition:49},0).wait(1).to({y:138.7,startPosition:50},0).wait(1).to({y:138.5,startPosition:51},0).wait(1).to({y:138.3,startPosition:52},0).wait(1).to({y:138,startPosition:53},0).wait(1).to({y:137.7,startPosition:54},0).wait(1).to({y:137.4,startPosition:55},0).wait(1).to({y:137,startPosition:56},0).wait(1).to({y:136.7,startPosition:57},0).wait(1).to({y:136.2,startPosition:58},0).wait(1).to({y:135.8,startPosition:59},0).wait(1).to({y:135.3,startPosition:60},0).wait(1).to({y:134.8,startPosition:61},0).wait(1).to({y:134.2,startPosition:62},0).wait(1).to({y:133.7,startPosition:63},0).wait(1).to({y:133.1,startPosition:64},0).wait(1).to({y:132.5,startPosition:65},0).wait(1).to({y:131.9,startPosition:66},0).wait(1).to({y:131.3,startPosition:67},0).wait(1).to({y:130.6,startPosition:68},0).wait(1).to({y:130,startPosition:69},0).wait(1).to({y:129.5,startPosition:70},0).wait(1).to({y:128.9,startPosition:71},0).wait(1).to({y:128.4,startPosition:72},0).wait(1).to({y:127.9,startPosition:73},0).wait(1).to({y:127.4,startPosition:74},0).wait(1).to({y:127,startPosition:75},0).wait(1).to({y:126.7,startPosition:76},0).wait(1).to({y:126.4,startPosition:77},0).wait(1).to({y:126.1,startPosition:78},0).wait(1).to({y:125.9,startPosition:79},0).wait(1).to({y:125.7,startPosition:80},0).wait(1).to({y:125.6,startPosition:81},0).wait(1).to({y:125.5,startPosition:82},0).wait(1).to({y:125.4,startPosition:83},0).wait(1).to({regX:0,regY:0,x:98,y:125.5,startPosition:84,loop:false},0).wait(1));
 
 	// Layer 1
 	this.instance_1 = new lib.Tween2("synched",0);
@@ -1068,7 +838,7 @@ p.nominalBounds = new cjs.Rectangle(-421.4,0,1161.5,1136);
 
 
 // stage content:
-(lib.hua = function(mode,startPosition,loop) {
+(lib.p0_html = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -1082,7 +852,6 @@ p.nominalBounds = new cjs.Rectangle(-101.4,568,1161.5,1136);
 
 })(wsy_p0 = wsy_p0||{}, img_p0 = img_p0||{}, ctj = ctj||{}, ss = ss||{});
 var wsy_p0, img_p0, ctj, ss;
-
 
 var AnimationP0 = (function (wsy, img, ctj) {
 	var noop = function () {
@@ -1118,7 +887,7 @@ var AnimationP0 = (function (wsy, img, ctj) {
 	p.handleComplete = function handleComplete(evt) {
 		var self = this;
 
-		self.exportRoot = new wsy.hua("independent", 0, false);
+		self.exportRoot = new wsy.p0_html("independent", 0, false);
 		self.stage = new ctj.Stage(self.canvas);
 		self.stage.addChild(this.exportRoot);
 
