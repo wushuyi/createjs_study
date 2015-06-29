@@ -887,7 +887,7 @@ var AnimationP0 = (function (wsy, img, ctj) {
 	p.handleComplete = function handleComplete(evt) {
 		var self = this;
 
-		self.exportRoot = new wsy.p0_html("independent", 0, false);
+		self.exportRoot = new wsy.p0_html("independent", 0, true);
 		self.stage = new ctj.Stage(self.canvas);
 		self.stage.addChild(this.exportRoot);
 
@@ -932,7 +932,7 @@ var AnimationP0 = (function (wsy, img, ctj) {
 		var self = this;
 		self._onceEnd = true;
 		ctj.Ticker.addEventListener("tick", self._tickListen);
-		self.exportRoot.gotoAndStop(0);
+		//self.exportRoot.gotoAndStop(0);
 		self.exportRoot.instance.instance.gotoAndStop(0);
 	};
 
