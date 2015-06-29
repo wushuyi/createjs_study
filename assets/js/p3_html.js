@@ -163,11 +163,11 @@ p.nominalBounds = new cjs.Rectangle(0,0,359,105);
 
 	// Layer 1
 	this.instance = new lib.copy4();
-	this.instance.setTransform(-156,-14.5);
+	this.instance.setTransform(-136,-14.5);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-156,-14.5,281,35);
+p.nominalBounds = new cjs.Rectangle(-136,-14.5,281,35);
 
 
 (lib.Tween15 = function() {
@@ -175,11 +175,11 @@ p.nominalBounds = new cjs.Rectangle(-156,-14.5,281,35);
 
 	// Layer 1
 	this.instance = new lib.copy3();
-	this.instance.setTransform(-151.5,-14);
+	this.instance.setTransform(-131.5,-14);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-151.5,-14,276,40);
+p.nominalBounds = new cjs.Rectangle(-131.5,-14,276,40);
 
 
 (lib.Tween14 = function() {
@@ -259,11 +259,11 @@ p.nominalBounds = new cjs.Rectangle(-266.5,-126.5,533,253);
 
 	// Layer 1
 	this.instance = new lib.copy1();
-	this.instance.setTransform(-172.5,-34);
+	this.instance.setTransform(-161.5,-34);
 
 	this.addChild(this.instance);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(-172.5,-34,293,82);
+p.nominalBounds = new cjs.Rectangle(-161.5,-34,293,82);
 
 
 (lib.Tween6 = function() {
@@ -676,9 +676,9 @@ p.nominalBounds = new cjs.Rectangle(-615.3,-66,1388.6,945.9);
 	this.instance_2.setTransform(257.5,410.8,1,1,0,0,0,17.5,21);
 
 	this.instance_3 = new lib.Symbol10();
-	this.instance_3.setTransform(294.6,1053.3,1,1,0,0,0,142,30);
+	this.instance_3.setTransform(316.6,1053.3,1,1,0,0,0,142,30);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},35).to({state:[]},1).to({state:[{t:this.instance_3}]},21).to({state:[]},1).wait(76));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},35).to({state:[]},1).to({state:[{t:this.instance_3}]},74).to({state:[]},1).wait(23));
 
 	// Layer 10
 	this.instance_4 = new lib.Symbol5("synched",0,false);
@@ -738,7 +738,6 @@ p.nominalBounds = new cjs.Rectangle(-150.4,556.2,1190.5,1149.9);
 
 })(wsy_p3 = wsy_p3||{}, img_p3 = img_p3||{}, ctj = ctj||{}, ss = ss||{});
 var wsy_p3, img_p3, ctj, ss;
-
 
 var AnimationP3 = (function (wsy, img, ctj) {
 	var noop = function () {
@@ -826,7 +825,7 @@ var AnimationP3 = (function (wsy, img, ctj) {
 			this.nextStatus();
 		},
 		function (exportRoot) {
-			if (exportRoot.currentFrame === 57) {
+			if (exportRoot.currentFrame === 110) {
 				exportRoot.stop();
 				if (this.onShake && typeof this.onShake === 'function') {
 					this.onShake();

@@ -689,22 +689,22 @@ p.nominalBounds = new cjs.Rectangle(-753.5,-102.7,1507.2,210.3);
 	mask._off = true;
 	var mask_graphics_7 = new cjs.Graphics().p("AqEE9IAAp5IUJAAIAAJ5g");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(7).to({graphics:mask_graphics_7,x:19,y:24.3}).wait(11).to({graphics:null,x:0,y:0}).wait(17));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(7).to({graphics:mask_graphics_7,x:10.5,y:39.8}).wait(11).to({graphics:null,x:0,y:0}).wait(17));
 
 	// tishi3.png
 	this.instance = new lib.Tween8("synched",0);
-	this.instance.setTransform(18.5,55,1,1,-165.3,0,0,-3,22.5);
+	this.instance.setTransform(5.2,64.1,1,1,-165.3,0,0,-0.6,12.5);
 	this.instance._off = true;
 
 	this.instance.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(7).to({_off:false},0).to({rotation:0},10,cjs.Ease.get(1)).wait(18));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(7).to({_off:false},0).to({rotation:-0.7,x:5.3,y:64},10,cjs.Ease.get(1)).wait(18));
 
 	// tishi2.png
 	this.instance_1 = new lib.Tween7("synched",0);
-	this.instance_1.setTransform(8,63.1,1,1,-23.4);
+	this.instance_1.setTransform(-10.5,63.1,1,1,-23.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({rotation:-23.3,y:63},0).wait(1).to({rotation:-23,x:8.2},0).wait(1).to({rotation:-22.3,x:8.5},0).wait(1).to({rotation:-21.4,x:8.9},0).wait(1).to({rotation:-20,x:9.4,y:62.9},0).wait(1).to({rotation:-18.3,x:10.2},0).wait(1).to({rotation:-15.9,x:11.1,y:62.8},0).wait(1).to({rotation:-13,x:12.3,y:62.7},0).wait(1).to({rotation:-9.4,x:13.8,y:62.6},0).wait(1).to({rotation:-5.2,x:15.6,y:62.4},0).wait(1).to({rotation:-0.5,x:17.5,y:62.3},0).wait(1).to({rotation:4.3,x:19.5,y:62.1},0).wait(1).to({rotation:8.7,x:21.4,y:62},0).wait(1).to({rotation:12.5,x:23,y:61.8},0).wait(1).to({rotation:15.4,x:24.2,y:61.7},0).wait(1).to({rotation:17.7,x:25.1},0).wait(1).to({rotation:19.2,x:25.8,y:61.6},0).wait(1).to({rotation:20.3,x:26.2},0).wait(1).to({rotation:20.8,x:26.4},0).wait(1).to({rotation:21,x:26.5},0).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({rotation:-23.3,y:63},0).wait(1).to({rotation:-23,x:-10.3},0).wait(1).to({rotation:-22.3,x:-10},0).wait(1).to({rotation:-21.4,x:-9.6},0).wait(1).to({rotation:-20,x:-9.1,y:62.9},0).wait(1).to({rotation:-18.3,x:-8.3},0).wait(1).to({rotation:-15.9,x:-7.4,y:62.8},0).wait(1).to({rotation:-13,x:-6.2,y:62.7},0).wait(1).to({rotation:-9.4,x:-4.7,y:62.6},0).wait(1).to({rotation:-5.2,x:-2.9,y:62.4},0).wait(1).to({rotation:-0.5,x:-1,y:62.3},0).wait(1).to({rotation:4.3,x:1,y:62.1},0).wait(1).to({rotation:8.7,x:2.9,y:62},0).wait(1).to({rotation:12.5,x:4.5,y:61.8},0).wait(1).to({rotation:15.4,x:5.7,y:61.7},0).wait(1).to({rotation:17.7,x:6.6},0).wait(1).to({rotation:19.2,x:7.3,y:61.6},0).wait(1).to({rotation:20.3,x:7.7},0).wait(1).to({rotation:20.8,x:7.9},0).wait(1).to({rotation:21,x:8},0).wait(15));
 
 	// tishi1.png
 	this.instance_2 = new lib.tishi1();
