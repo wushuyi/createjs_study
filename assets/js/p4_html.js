@@ -492,7 +492,7 @@
 
 		// Layer 3
 		this.instance = new lib.Symbol18("single",0);
-		this.instance.setTransform(230.7,246.3,1,1,0,0,0,25.4,16.1);
+		this.instance.setTransform(230.7,241.3,1,1,0,0,0,25.4,16.1);
 
 		this.timeline.addTween(cjs.Tween.get(this.instance).wait(2).to({mode:"synched",loop:false},0).to({regX:25.3,scaleX:1.1,skewY:-3,x:230.6,startPosition:7},7).to({regX:25.4,scaleX:1,skewY:0,x:230.7,startPosition:13},6).wait(20));
 
@@ -532,28 +532,28 @@
 		// Layer 9 (mask)
 		var mask = new cjs.Shape();
 		mask._off = true;
-		var mask_graphics_18 = new cjs.Graphics().p("AgIAwQnZB1himOQFRAPCFgYICzhZIH/G4IizDfg");
-		var mask_graphics_23 = new cjs.Graphics().p("AgmAdQmQCKhplmQDyALCDgjICshmIIeGOIigDug");
-		var mask_graphics_29 = new cjs.Graphics().p("AV/SyQm8D5honRQEdAFCDgiICthnIIgGRIihDtg");
+		var mask_graphics_18 = new cjs.Graphics().p("Ai5CCQnaB1himOQFRAPCFgYIC1hZQWMnfuPOXIizDfg");
+		var mask_graphics_23 = new cjs.Graphics().p("AkFAzQmQCKhqlmQDzALCDgjICthnQZ0i3xXJGIigDtg");
+		var mask_graphics_29 = new cjs.Graphics().p("AhXBOQm9D5hnnPQEcAFCDgjICthnQPhk+nDLOIigDsg");
 
-		this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(18).to({graphics:mask_graphics_18,x:336.4,y:269.5}).wait(5).to({graphics:mask_graphics_23,x:342.4,y:269}).wait(6).to({graphics:mask_graphics_29,x:199.2,y:149.2}).wait(3).to({graphics:null,x:0,y:0}).wait(54));
+		this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(18).to({graphics:mask_graphics_18,x:354.1,y:256.3}).wait(5).to({graphics:mask_graphics_23,x:364.7,y:261.8}).wait(6).to({graphics:mask_graphics_29,x:348.9,y:256.6}).wait(3).to({graphics:null,x:0,y:0}).wait(54));
 
 		// 勺子
 		this.instance_2 = new lib.Symbol10copy();
-		this.instance_2.setTransform(374,257.2,1,1,49.1,0,0,84.4,14.9);
+		this.instance_2.setTransform(374,252.2,1,1,49.1,0,0,84.4,14.9);
 		this.instance_2._off = true;
 
 		this.instance_2.mask = mask;
 
-		this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(27).to({_off:false},0).wait(1).to({regX:50,regY:48,rotation:48.6,x:326.5,y:253.5},0).wait(1).to({rotation:46.9,x:326.9,y:255.8},0).wait(1).to({rotation:43.5,x:327.9,y:260.4},0).wait(1).to({rotation:37.7,x:329.8,y:268.2},0).wait(1).to({rotation:29.1,x:333.7,y:279.7},0).wait(1).to({rotation:19.2,x:339.3,y:292.6},0).wait(1).to({rotation:10.9,x:345.1,y:302.9},0).wait(1).to({rotation:5.4,x:349.4,y:309.5},0).wait(1).to({rotation:2.1,x:352.1,y:313.2},0).wait(1).to({rotation:0.5,x:353.5,y:315.1},0).wait(1).to({regX:84.5,regY:14.9,rotation:0,x:388.4,y:282.5},0).wait(1).to({regX:50,regY:48,rotation:2.4,x:352.5,y:314.1},0).wait(1).to({rotation:4.3,x:351.4,y:312.9},0).wait(1).to({rotation:5.6,x:350.8,y:312},0).wait(1).to({rotation:6.4,x:350.3,y:311.5},0).wait(1).to({regX:84.5,regY:14.9,rotation:6.7,x:388.3,y:282.5},0).wait(1).to({regX:50,regY:48,rotation:4.3,x:351.4,y:312.9},0).wait(1).to({rotation:2.4,x:352.5,y:314.1},0).wait(1).to({rotation:1.1,x:353.2,y:315},0).wait(1).to({rotation:0.3,x:353.7,y:315.5},0).wait(1).to({regX:84.5,regY:14.9,rotation:0,x:388.4,y:282.5},0).wait(38));
+		this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(27).to({_off:false},0).wait(1).to({regX:50,regY:48,rotation:48.6,x:326.5,y:248.5},0).wait(1).to({rotation:46.9,x:326.9,y:250.8},0).wait(1).to({rotation:43.5,x:327.9,y:255.4},0).wait(1).to({rotation:37.7,x:329.8,y:263.2},0).wait(1).to({rotation:29.1,x:333.7,y:274.7},0).wait(1).to({rotation:19.2,x:339.3,y:287.6},0).wait(1).to({rotation:10.9,x:345.1,y:297.9},0).wait(1).to({rotation:5.4,x:349.4,y:304.5},0).wait(1).to({rotation:2.1,x:352.1,y:308.2},0).wait(1).to({rotation:0.5,x:353.5,y:310.1},0).wait(1).to({regX:84.5,regY:14.9,rotation:0,x:388.4,y:277.5},0).wait(1).to({regX:50,regY:48,rotation:2.4,x:352.5,y:309.1},0).wait(1).to({rotation:4.3,x:351.4,y:307.9},0).wait(1).to({rotation:5.6,x:350.8,y:307},0).wait(1).to({rotation:6.4,x:350.3,y:306.5},0).wait(1).to({regX:84.5,regY:14.9,rotation:6.7,x:388.3,y:277.5},0).wait(1).to({regX:50,regY:48,rotation:4.3,x:351.4,y:307.9},0).wait(1).to({rotation:2.4,x:352.5,y:309.1},0).wait(1).to({rotation:1.1,x:353.2,y:310},0).wait(1).to({rotation:0.3,x:353.7,y:310.5},0).wait(1).to({regX:84.5,regY:14.9,rotation:0,x:388.4,y:277.5},0).wait(38));
 
 		// 勺子
 		this.instance_3 = new lib.Symbol10();
-		this.instance_3.setTransform(388.4,282.5,1,1,0,0,0,84.5,14.9);
+		this.instance_3.setTransform(388.4,277.5,1,1,0,0,0,84.5,14.9);
 
 		this.instance_3.mask = mask;
 
-		this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1).to({regX:55,regY:47.5,rotation:2.4,x:357.5,y:313.8},0).wait(1).to({rotation:4.3,x:356.5,y:312.8},0).wait(1).to({rotation:5.6,x:355.8,y:312},0).wait(1).to({rotation:6.4,x:355.3,y:311.6},0).wait(1).to({regX:84.5,regY:14.9,rotation:6.7,x:388.3,y:282.5},0).wait(1).to({regX:55,regY:47.5,rotation:4.3,x:356.5,y:312.8},0).wait(1).to({rotation:2.4,x:357.5,y:313.8},0).wait(1).to({rotation:1.1,x:358.2,y:314.6},0).wait(1).to({rotation:0.3,x:358.7,y:315},0).wait(1).to({regX:84.5,regY:14.9,rotation:0,x:388.4,y:282.5},0).wait(1).to({regX:55,regY:47.5,rotation:0.4,x:358.5,y:314.7},0).wait(1).to({rotation:1.7,x:357.4,y:313.4},0).wait(1).to({rotation:4.4,x:355.4,y:310.8},0).wait(1).to({rotation:8.7,x:352.1,y:306.2},0).wait(1).to({rotation:15.4,x:347.4,y:299},0).wait(1).to({rotation:24.6,x:341.9,y:288.5},0).wait(1).to({rotation:34.7,x:337,y:276.5},0).wait(1).to({rotation:43.1,x:333.9,y:266.2},0).wait(1).to({rotation:49.1,x:332.3,y:258.9},0).wait(1).to({rotation:53,x:331.4,y:254.1},0).wait(1).to({rotation:55.4,x:331.1,y:251.1},0).wait(1).to({rotation:56.6,x:330.9,y:249.7},0).wait(1).to({regX:84.4,regY:14.8,rotation:57,x:374.3,y:256.2},0).wait(1).to({regX:55,regY:47.5,rotation:56.2,x:330.7,y:250},0).wait(1).to({rotation:53,x:330.3,y:252.9},0).wait(1).to({rotation:49.8,x:330,y:255.7},0).wait(1).to({regX:84.4,regY:14.9,rotation:49.1,x:374,y:257.2},0).to({_off:true},1).wait(58));
+		this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1).to({regX:55,regY:47.5,rotation:2.4,x:357.5,y:308.8},0).wait(1).to({rotation:4.3,x:356.5,y:307.8},0).wait(1).to({rotation:5.6,x:355.8,y:307},0).wait(1).to({rotation:6.4,x:355.3,y:306.6},0).wait(1).to({regX:84.5,regY:14.9,rotation:6.7,x:388.3,y:277.5},0).wait(1).to({regX:55,regY:47.5,rotation:4.3,x:356.5,y:307.8},0).wait(1).to({rotation:2.4,x:357.5,y:308.8},0).wait(1).to({rotation:1.1,x:358.2,y:309.6},0).wait(1).to({rotation:0.3,x:358.7,y:310},0).wait(1).to({regX:84.5,regY:14.9,rotation:0,x:388.4,y:277.5},0).wait(1).to({regX:55,regY:47.5,rotation:0.4,x:358.5,y:309.7},0).wait(1).to({rotation:1.7,x:357.4,y:308.4},0).wait(1).to({rotation:4.4,x:355.4,y:305.8},0).wait(1).to({rotation:8.7,x:352.1,y:301.2},0).wait(1).to({rotation:15.4,x:347.4,y:294},0).wait(1).to({rotation:24.6,x:341.9,y:283.5},0).wait(1).to({rotation:34.7,x:337,y:271.5},0).wait(1).to({rotation:43.1,x:333.9,y:261.2},0).wait(1).to({rotation:49.1,x:332.3,y:253.9},0).wait(1).to({rotation:53,x:331.4,y:249.1},0).wait(1).to({rotation:55.4,x:331.1,y:246.1},0).wait(1).to({rotation:56.6,x:330.9,y:244.7},0).wait(1).to({regX:84.4,regY:14.8,rotation:57,x:374.3,y:251.2},0).wait(1).to({regX:55,regY:47.5,rotation:56.2,x:330.7,y:245},0).wait(1).to({rotation:53,x:330.3,y:247.9},0).wait(1).to({rotation:49.8,x:330,y:250.7},0).wait(1).to({regX:84.4,regY:14.9,rotation:49.1,x:374,y:252.2},0).to({_off:true},1).wait(58));
 
 		// 左手
 		this.instance_4 = new lib.Symbol11();
