@@ -524,17 +524,17 @@
 	(lib.Symbol2 = function(mode,startPosition,loop) {
 		this.initialize(mode,startPosition,loop,{});
 
-		// Tween 6
-		this.instance = new lib.Tween6("synched",0);
-		this.instance.setTransform(131,150,1,0.918);
-
-		this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleY:1.06,y:139.1},2,cjs.Ease.get(1)).to({scaleY:0.92,y:150},2).to({scaleY:1.06,y:139.1},2,cjs.Ease.get(1)).to({scaleY:0.92,y:150},2).to({scaleY:1.01,y:142.4},2,cjs.Ease.get(1)).to({scaleY:1.03,y:141.2},2).wait(1));
-
 		// Layer 1
-		this.instance_1 = new lib.Tween4("synched",0);
-		this.instance_1.setTransform(138,213.6,1,1,3.8,0,0,-146.1,88);
+		this.instance = new lib.Tween4("synched",0);
+		this.instance.setTransform(138,213.6,1,1,3.8,0,0,-146.1,88);
 
-		this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(13));
+		this.timeline.addTween(cjs.Tween.get(this.instance).wait(13));
+
+		// Tween 6
+		this.instance_1 = new lib.Tween6("synched",0);
+		this.instance_1.setTransform(131,150,1,0.918);
+
+		this.timeline.addTween(cjs.Tween.get(this.instance_1).to({scaleY:1.06,y:139.1},2,cjs.Ease.get(1)).to({scaleY:0.92,y:150},2).to({scaleY:1.06,y:139.1},2,cjs.Ease.get(1)).to({scaleY:0.92,y:150},2).to({scaleY:1.01,y:142.4},2,cjs.Ease.get(1)).to({scaleY:1.03,y:141.2},2).wait(1));
 
 	}).prototype = p = new cjs.MovieClip();
 	p.nominalBounds = new cjs.Rectangle(0,0,579.2,270.9);
