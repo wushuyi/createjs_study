@@ -15,6 +15,7 @@
 			{src:"img_p5/suannai1.png", id:"suannai1"},
 			{src:"img_p5/suannai2.png", id:"suannai2"},
 			{src:"img_p5/suannai3.png", id:"suannai3"},
+			{src:"img_p5/suannai6.png", id:"suannai6"},
 			{src:"img_p5/tishi1.png", id:"tishi1"},
 			{src:"img_p5/tishi2.png", id:"tishi2"}
 		]
@@ -60,6 +61,12 @@
 		this.initialize(img.suannai3);
 	}).prototype = p = new cjs.Bitmap();
 	p.nominalBounds = new cjs.Rectangle(0,0,341,260);
+
+
+	(lib.suannai6 = function() {
+		this.initialize(img.suannai6);
+	}).prototype = p = new cjs.Bitmap();
+	p.nominalBounds = new cjs.Rectangle(0,0,362,254);
 
 
 	(lib.tishi1 = function() {
@@ -113,41 +120,25 @@
 	(lib.Tween5copy = function() {
 		this.initialize();
 
-		// Layer 2 (mask)
-		var mask = new cjs.Shape();
-		mask._off = true;
-		mask.graphics.p("ANrRfIAAmPIIwAAIAAGPgA2aKAIAAtkILQAAIAANkgAo9oQIAApOIH9AAIAAJOg");
-		mask.setTransform(-31.5,7.8);
-
 		// Layer 1
-		this.instance = new lib.suannai3();
-		this.instance.setTransform(-170.5,-130);
-
-		this.instance.mask = mask;
+		this.instance = new lib.suannai6();
+		this.instance.setTransform(-178.7,87.2,0.921,0.921,-69.7);
 
 		this.addChild(this.instance);
 	}).prototype = p = new cjs.Container();
-	p.nominalBounds = new cjs.Rectangle(-170.5,-104.2,282.5,224);
+	p.nominalBounds = new cjs.Rectangle(-178.7,-225.5,334.8,393.7);
 
 
 	(lib.Tween5 = function() {
 		this.initialize();
 
-		// Layer 2 (mask)
-		var mask = new cjs.Shape();
-		mask._off = true;
-		mask.graphics.p("AwjPnIAAmPIIxAAIAAGPgAT/FKIAApMIH+AAIAAJMgA79iAIAAtmILQAAIAANmg");
-		mask.setTransform(-2,-29.2);
-
 		// Layer 1
 		this.instance = new lib.suannai3();
-		this.instance.setTransform(-170.5,-130);
-
-		this.instance.mask = mask;
+		this.instance.setTransform(-149.9,-45.3,0.806,1.119,-26.7);
 
 		this.addChild(this.instance);
 	}).prototype = p = new cjs.Container();
-	p.nominalBounds = new cjs.Rectangle(-170.5,-129.2,341,200);
+	p.nominalBounds = new cjs.Rectangle(-149.9,-168.7,376.4,383.5);
 
 
 	(lib.Tween3 = function() {
@@ -195,7 +186,7 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance).to({rotation:-360},106).wait(1));
 
 	}).prototype = p = new cjs.MovieClip();
-	p.nominalBounds = new cjs.Rectangle(-170.5,-104.2,282.5,224);
+	p.nominalBounds = new cjs.Rectangle(-178.7,-225.5,334.8,393.7);
 
 
 	(lib.Tween4 = function(mode,startPosition,loop) {
@@ -207,7 +198,7 @@
 		this.timeline.addTween(cjs.Tween.get(this.instance).to({rotation:-360},106).wait(1));
 
 	}).prototype = p = new cjs.MovieClip();
-	p.nominalBounds = new cjs.Rectangle(-170.5,-129.2,341,200);
+	p.nominalBounds = new cjs.Rectangle(-149.9,-168.7,376.4,383.5);
 
 
 	(lib.Symbol5 = function(mode,startPosition,loop) {
@@ -388,7 +379,6 @@
 
 })(wsy_p5 = wsy_p5||{}, img_p5 = img_p5||{}, ctj = ctj||{}, ss = ss||{});
 var wsy_p5, img_p5, ctj, ss;
-
 
 var AnimationP5 = (function (wsy, img, ctj) {
 	var noop = function () {
