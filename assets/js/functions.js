@@ -205,6 +205,7 @@ $.fn.ready(function () {
     } else if (Modernizr.touch) {
         $el.doc.one('touchstart', function () {
             anima.preload();
+            $('.info').remove();
         });
     } else {
         $.fn.ready(function () {

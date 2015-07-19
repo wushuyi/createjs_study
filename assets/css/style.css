@@ -64,6 +64,16 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     background-size: 100% 100%;
 }
 
+.info{
+    position: absolute;
+    top: 50%;
+}
+.info h1{
+    font-size: 38px;
+    text-align: center;
+    width: 640px;
+}
+
 /* Media queries
 -------------------------------------------------------------------------------*/
 
